@@ -1,0 +1,8 @@
+uri: <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+Apache Tiles: <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
+Spring Forms: <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+Spring security: <%@ taglib uri="http://www.springframework.org/security/tags" prefix="sec"%>
+JSTL: <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+Display Tag: <%@ taglib uri="http://displaytag.sf.net" prefix="display"%>
+
+<c:url var="rootURL" value="${pageContext.request.contextPath}" />
